@@ -1,0 +1,284 @@
+2022-11-09 09:44:39.669 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-154  [fixed-localhost_8848] [get-config] get from server error, dataId=null.properties, group=DEFAULT_GROUP, tenant=, msg=ErrCode:500, ErrMsg:[NACOS HTTP-GET] The maximum number of tolerable server reconnection errors has been reached
+2022-11-09 09:44:39.670 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-158  [fixed-localhost_8848] [get-config] get snapshot ok, dataId=null.properties, group=DEFAULT_GROUP, tenant=, config=
+2022-11-09 09:44:39.671 [restartedMain] [] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder-87  Ignore the empty nacos configuration and get it based on dataId[null.properties] & group[DEFAULT_GROUP]
+2022-11-09 09:44:44.984 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2022-11-09 09:44:44.986 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-11-09 09:44:55.602 [restartedMain] [] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-591  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-11-09 09:47:40.393 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-154  [fixed-localhost_8848] [get-config] get from server error, dataId=null.properties, group=DEFAULT_GROUP, tenant=, msg=ErrCode:500, ErrMsg:[NACOS HTTP-GET] The maximum number of tolerable server reconnection errors has been reached
+2022-11-09 09:47:40.394 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-158  [fixed-localhost_8848] [get-config] get snapshot ok, dataId=null.properties, group=DEFAULT_GROUP, tenant=, config=
+2022-11-09 09:47:40.396 [restartedMain] [] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder-87  Ignore the empty nacos configuration and get it based on dataId[null.properties] & group[DEFAULT_GROUP]
+2022-11-09 09:47:45.838 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2022-11-09 09:47:45.841 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-11-09 09:47:46.440 [restartedMain] [] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-591  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-11-09 09:48:45.937 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-154  [fixed-localhost_8848] [get-config] get from server error, dataId=null.properties, group=DEFAULT_GROUP, tenant=, msg=ErrCode:500, ErrMsg:[NACOS HTTP-GET] The maximum number of tolerable server reconnection errors has been reached
+2022-11-09 09:48:45.938 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-158  [fixed-localhost_8848] [get-config] get snapshot ok, dataId=null.properties, group=DEFAULT_GROUP, tenant=, config=
+2022-11-09 09:48:45.939 [restartedMain] [] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder-87  Ignore the empty nacos configuration and get it based on dataId[null.properties] & group[DEFAULT_GROUP]
+2022-11-09 09:48:51.649 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2022-11-09 09:48:51.651 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-11-09 09:53:27.645 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:53:27.646 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:118)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:53:27.647 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:53:27.647 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:53:27.648 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:53:27.649 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainDatagramSocketImpl.receive0(Native Method)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+ java.util.concurrent.FutureTask.run(FutureTask.java)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:53:27.654 [restartedMain] [] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-591  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-11-09 09:57:29.615 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-154  [fixed-localhost_8848] [get-config] get from server error, dataId=null.properties, group=DEFAULT_GROUP, tenant=, msg=ErrCode:500, ErrMsg:[NACOS HTTP-GET] The maximum number of tolerable server reconnection errors has been reached
+2022-11-09 09:57:29.617 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-158  [fixed-localhost_8848] [get-config] get snapshot ok, dataId=null.properties, group=DEFAULT_GROUP, tenant=, config=
+2022-11-09 09:57:29.619 [restartedMain] [] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder-87  Ignore the empty nacos configuration and get it based on dataId[null.properties] & group[DEFAULT_GROUP]
+2022-11-09 09:57:34.619 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2022-11-09 09:57:34.621 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-11-09 09:58:00.889 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:58:00.892 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:118)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:58:00.893 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:58:00.893 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:58:00.895 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:58:00.896 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainDatagramSocketImpl.receive0(Native Method)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+ java.util.concurrent.FutureTask.run(FutureTask.java)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 09:58:00.900 [restartedMain] [] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-591  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-11-09 10:07:17.974 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-154  [fixed-localhost_8848] [get-config] get from server error, dataId=null.properties, group=DEFAULT_GROUP, tenant=, msg=ErrCode:500, ErrMsg:[NACOS HTTP-GET] The maximum number of tolerable server reconnection errors has been reached
+2022-11-09 10:07:17.976 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-158  [fixed-localhost_8848] [get-config] get snapshot ok, dataId=null.properties, group=DEFAULT_GROUP, tenant=, config=
+2022-11-09 10:07:17.978 [restartedMain] [] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder-87  Ignore the empty nacos configuration and get it based on dataId[null.properties] & group[DEFAULT_GROUP]
+2022-11-09 10:07:22.941 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2022-11-09 10:07:22.942 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-11-09 10:07:23.739 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:07:23.740 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:118)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:07:23.741 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:07:23.742 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:07:23.742 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:07:23.743 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainDatagramSocketImpl.receive0(Native Method)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+ java.util.concurrent.FutureTask.run(FutureTask.java)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:07:23.745 [restartedMain] [] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-591  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-11-09 10:19:37.433 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-154  [fixed-localhost_8848] [get-config] get from server error, dataId=null.properties, group=DEFAULT_GROUP, tenant=, msg=ErrCode:500, ErrMsg:[NACOS HTTP-GET] The maximum number of tolerable server reconnection errors has been reached
+2022-11-09 10:19:37.434 [restartedMain] [] WARN  com.alibaba.nacos.client.config.NacosConfigService-158  [fixed-localhost_8848] [get-config] get snapshot ok, dataId=null.properties, group=DEFAULT_GROUP, tenant=, config=
+2022-11-09 10:19:37.436 [restartedMain] [] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder-87  Ignore the empty nacos configuration and get it based on dataId[null.properties] & group[DEFAULT_GROUP]
+2022-11-09 10:19:42.457 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2022-11-09 10:19:42.458 [restartedMain] [] WARN  o.springframework.boot.actuate.endpoint.EndpointId-155  Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-11-09 10:19:46.418 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:19:46.419 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:118)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:19:46.420 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:19:46.422 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:19:46.422 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:19:46.424 [restartedMain] [] WARN  org.apache.catalina.loader.WebappClassLoaderBase-173  The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainDatagramSocketImpl.receive0(Native Method)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+ java.util.concurrent.FutureTask.run(FutureTask.java)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-09 10:19:46.427 [restartedMain] [] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-591  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-11-09 12:05:33.538 [restartedMain] [] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder-87  Ignore the empty nacos configuration and get it based on dataId[null.properties] & group[DEFAULT_GROUP]
+2022-11-09 12:05:38.351 [Thread-11] [] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder-108  [HttpClientBeanHolder] Start destroying common HttpClient
+2022-11-09 12:05:38.362 [Thread-11] [] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder-114  [HttpClientBeanHolder] Destruction of the end
+2022-11-09 12:05:38.865 [restartedMain] [] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-591  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat

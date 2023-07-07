@@ -1,0 +1,196 @@
+2022-11-09 09:44:32.426 [background-preinit] [] INFO  org.hibernate.validator.internal.util.Version-21  HV000001: Hibernate Validator 6.2.0.Final
+2022-11-09 09:44:32.505 [restartedMain] [] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-09 09:44:33.508 [restartedMain] [] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor-195  LOCAL_SNAPSHOT_PATH:/Users/admin/nacos/config
+2022-11-09 09:44:39.021 [restartedMain] [] INFO  com.alibaba.nacos.client.config.impl.Limiter-53  limitTime:5.0
+2022-11-09 09:44:39.685 [restartedMain] [] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration-109  Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2022-11-09 09:44:39.723 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-?  No active profile set, falling back to default profiles: default
+2022-11-09 09:44:39.723 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-?  No active profile set, falling back to default profiles: default
+2022-11-09 09:44:41.952 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-262  Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-09 09:44:41.966 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-132  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-09 09:44:42.004 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-201  Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-11-09 09:44:43.360 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:44:43.368 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$5c5dd236] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:44:43.408 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:44:43.416 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:44:43.439 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration' of type [io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration$$EnhancerBySpringCGLIB$$27aa803c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:44:44.475 [restartedMain] [] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-108  Tomcat initialized with port(s): 8080 (http)
+2022-11-09 09:44:44.500 [restartedMain] [] INFO  org.apache.coyote.http11.Http11NioProtocol-173  Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-09 09:44:44.500 [restartedMain] [] INFO  org.apache.catalina.core.StandardService-173  Starting service [Tomcat]
+2022-11-09 09:44:44.501 [restartedMain] [] INFO  org.apache.catalina.core.StandardEngine-173  Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-11-09 09:44:44.644 [restartedMain] [] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-173  Initializing Spring embedded WebApplicationContext
+2022-11-09 09:44:44.644 [restartedMain] [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-290  Root WebApplicationContext: initialization completed in 4863 ms
+2022-11-09 09:44:45.145 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-56  initializer namespace from System Property :null
+2022-11-09 09:44:45.147 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-65  initializer namespace from System Environment :null
+2022-11-09 09:44:45.147 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-75  initializer namespace from System Property :null
+2022-11-09 09:44:45.218 [restartedMain] [] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-56  Init DruidDataSource
+2022-11-09 09:47:35.060 [background-preinit] [] INFO  org.hibernate.validator.internal.util.Version-21  HV000001: Hibernate Validator 6.2.0.Final
+2022-11-09 09:47:35.137 [restartedMain] [] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-09 09:47:36.100 [restartedMain] [] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor-195  LOCAL_SNAPSHOT_PATH:/Users/admin/nacos/config
+2022-11-09 09:47:39.755 [restartedMain] [] INFO  com.alibaba.nacos.client.config.impl.Limiter-53  limitTime:5.0
+2022-11-09 09:47:40.399 [restartedMain] [] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration-109  Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2022-11-09 09:47:40.425 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-?  No active profile set, falling back to default profiles: default
+2022-11-09 09:47:40.425 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-659  No active profile set, falling back to default profiles: default
+2022-11-09 09:47:42.790 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-262  Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-09 09:47:42.802 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-132  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-09 09:47:42.837 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-201  Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-11-09 09:47:44.271 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:47:44.278 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$45ad999a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:47:44.329 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:47:44.334 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:47:44.363 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration' of type [io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration$$EnhancerBySpringCGLIB$$10fa47a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:47:45.269 [restartedMain] [] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-108  Tomcat initialized with port(s): 8080 (http)
+2022-11-09 09:47:45.287 [restartedMain] [] INFO  org.apache.coyote.http11.Http11NioProtocol-173  Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-09 09:47:45.287 [restartedMain] [] INFO  org.apache.catalina.core.StandardService-173  Starting service [Tomcat]
+2022-11-09 09:47:45.289 [restartedMain] [] INFO  org.apache.catalina.core.StandardEngine-173  Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-11-09 09:47:45.448 [restartedMain] [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-290  Root WebApplicationContext: initialization completed in 4978 ms
+2022-11-09 09:47:45.986 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-56  initializer namespace from System Property :null
+2022-11-09 09:47:45.987 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-65  initializer namespace from System Environment :null
+2022-11-09 09:47:45.988 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-75  initializer namespace from System Property :null
+2022-11-09 09:47:46.065 [restartedMain] [] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-56  Init DruidDataSource
+2022-11-09 09:48:41.244 [background-preinit] [] INFO  org.hibernate.validator.internal.util.Version-21  HV000001: Hibernate Validator 6.2.0.Final
+2022-11-09 09:48:41.330 [restartedMain] [] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-09 09:48:42.309 [restartedMain] [] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor-195  LOCAL_SNAPSHOT_PATH:/Users/admin/nacos/config
+2022-11-09 09:48:45.297 [restartedMain] [] INFO  com.alibaba.nacos.client.config.impl.Limiter-53  limitTime:5.0
+2022-11-09 09:48:45.942 [restartedMain] [] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration-109  Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2022-11-09 09:48:45.972 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-?  No active profile set, falling back to default profiles: default
+2022-11-09 09:48:45.972 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-659  No active profile set, falling back to default profiles: default
+2022-11-09 09:48:48.291 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-262  Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-09 09:48:48.302 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-132  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-09 09:48:48.335 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-201  Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-11-09 09:48:49.750 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:48:49.756 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$defe30ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:48:49.857 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:48:49.866 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:48:49.957 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration' of type [io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration$$EnhancerBySpringCGLIB$$aa4adef0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:48:51.124 [restartedMain] [] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-108  Tomcat initialized with port(s): 8080 (http)
+2022-11-09 09:48:51.145 [restartedMain] [] INFO  org.apache.coyote.http11.Http11NioProtocol-173  Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-09 09:48:51.146 [restartedMain] [] INFO  org.apache.catalina.core.StandardService-173  Starting service [Tomcat]
+2022-11-09 09:48:51.146 [restartedMain] [] INFO  org.apache.catalina.core.StandardEngine-173  Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-11-09 09:48:51.299 [restartedMain] [] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-173  Initializing Spring embedded WebApplicationContext
+2022-11-09 09:48:51.299 [restartedMain] [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-290  Root WebApplicationContext: initialization completed in 5284 ms
+2022-11-09 09:48:51.825 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-56  initializer namespace from System Property :null
+2022-11-09 09:48:51.828 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-65  initializer namespace from System Environment :null
+2022-11-09 09:48:51.829 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-75  initializer namespace from System Property :null
+2022-11-09 09:48:51.948 [restartedMain] [] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-56  Init DruidDataSource
+2022-11-09 09:53:27.524 [restartedMain] [] INFO  org.apache.catalina.core.StandardService-173  Stopping service [Tomcat]
+2022-11-09 09:53:27.722 [restartedMain] [] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-136  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-09 09:53:47.245 [background-preinit] [] INFO  org.hibernate.validator.internal.util.Version-21  HV000001: Hibernate Validator 6.2.0.Final
+2022-11-09 09:53:47.332 [restartedMain] [] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-09 09:53:48.303 [restartedMain] [] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor-195  LOCAL_SNAPSHOT_PATH:/Users/admin/nacos/config
+2022-11-09 09:57:25.268 [background-preinit] [] INFO  org.hibernate.validator.internal.util.Version-21  HV000001: Hibernate Validator 6.2.0.Final
+2022-11-09 09:57:25.343 [restartedMain] [] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-09 09:57:26.291 [restartedMain] [] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor-195  LOCAL_SNAPSHOT_PATH:/Users/admin/nacos/config
+2022-11-09 09:57:28.975 [restartedMain] [] INFO  com.alibaba.nacos.client.config.impl.Limiter-53  limitTime:5.0
+2022-11-09 09:57:29.624 [restartedMain] [] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration-109  Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2022-11-09 09:57:29.666 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-?  No active profile set, falling back to default profiles: default
+2022-11-09 09:57:29.666 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-659  No active profile set, falling back to default profiles: default
+2022-11-09 09:57:31.878 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-262  Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-09 09:57:31.887 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-132  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-09 09:57:31.921 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-201  Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-11-09 09:57:33.160 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:57:33.166 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$8080df18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:57:33.205 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:57:33.212 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:57:33.241 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration' of type [io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration$$EnhancerBySpringCGLIB$$4bcd8d1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 09:57:34.159 [restartedMain] [] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-108  Tomcat initialized with port(s): 8080 (http)
+2022-11-09 09:57:34.183 [restartedMain] [] INFO  org.apache.coyote.http11.Http11NioProtocol-173  Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-09 09:57:34.184 [restartedMain] [] INFO  org.apache.catalina.core.StandardService-173  Starting service [Tomcat]
+2022-11-09 09:57:34.184 [restartedMain] [] INFO  org.apache.catalina.core.StandardEngine-173  Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-11-09 09:57:34.326 [restartedMain] [] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-173  Initializing Spring embedded WebApplicationContext
+2022-11-09 09:57:34.326 [restartedMain] [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-290  Root WebApplicationContext: initialization completed in 4618 ms
+2022-11-09 09:57:34.894 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-56  initializer namespace from System Property :null
+2022-11-09 09:57:34.897 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-65  initializer namespace from System Environment :null
+2022-11-09 09:57:34.899 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-75  initializer namespace from System Property :null
+2022-11-09 09:57:34.994 [restartedMain] [] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-56  Init DruidDataSource
+2022-11-09 09:58:00.722 [restartedMain] [] INFO  org.apache.catalina.core.StandardService-173  Stopping service [Tomcat]
+2022-11-09 09:58:00.954 [restartedMain] [] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-136  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-09 09:59:44.670 [background-preinit] [] INFO  org.hibernate.validator.internal.util.Version-21  HV000001: Hibernate Validator 6.2.0.Final
+2022-11-09 09:59:44.743 [restartedMain] [] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-09 09:59:45.737 [restartedMain] [] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor-195  LOCAL_SNAPSHOT_PATH:/Users/admin/nacos/config
+2022-11-09 10:07:16.164 [background-preinit] [] INFO  org.hibernate.validator.internal.util.Version-21  HV000001: Hibernate Validator 6.2.0.Final
+2022-11-09 10:07:16.279 [restartedMain] [] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-09 10:07:17.282 [restartedMain] [] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor-195  LOCAL_SNAPSHOT_PATH:/Users/admin/nacos/config
+2022-11-09 10:07:17.335 [restartedMain] [] INFO  com.alibaba.nacos.client.config.impl.Limiter-53  limitTime:5.0
+2022-11-09 10:07:17.986 [restartedMain] [] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration-109  Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2022-11-09 10:07:18.024 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-?  No active profile set, falling back to default profiles: default
+2022-11-09 10:07:18.024 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-659  No active profile set, falling back to default profiles: default
+2022-11-09 10:07:20.022 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-262  Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-09 10:07:20.030 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-132  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-09 10:07:20.068 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-201  Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2022-11-09 10:07:21.321 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 10:07:21.325 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$f4851fd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 10:07:21.375 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 10:07:21.381 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 10:07:21.411 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration' of type [io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration$$EnhancerBySpringCGLIB$$bfd1cdd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 10:07:22.424 [restartedMain] [] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-108  Tomcat initialized with port(s): 8080 (http)
+2022-11-09 10:07:22.447 [restartedMain] [] INFO  org.apache.coyote.http11.Http11NioProtocol-173  Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-09 10:07:22.448 [restartedMain] [] INFO  org.apache.catalina.core.StandardService-173  Starting service [Tomcat]
+2022-11-09 10:07:22.448 [restartedMain] [] INFO  org.apache.catalina.core.StandardEngine-173  Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-11-09 10:07:22.598 [restartedMain] [] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-173  Initializing Spring embedded WebApplicationContext
+2022-11-09 10:07:22.598 [restartedMain] [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-290  Root WebApplicationContext: initialization completed in 4531 ms
+2022-11-09 10:07:23.237 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-56  initializer namespace from System Property :null
+2022-11-09 10:07:23.240 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-65  initializer namespace from System Environment :null
+2022-11-09 10:07:23.241 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-75  initializer namespace from System Property :null
+2022-11-09 10:07:23.354 [restartedMain] [] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-56  Init DruidDataSource
+2022-11-09 10:07:23.623 [restartedMain] [] INFO  org.apache.catalina.core.StandardService-173  Stopping service [Tomcat]
+2022-11-09 10:07:23.784 [restartedMain] [] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-136  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-09 10:19:28.926 [background-preinit] [] INFO  org.hibernate.validator.internal.util.Version-21  HV000001: Hibernate Validator 6.2.0.Final
+2022-11-09 10:19:29.021 [restartedMain] [] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-09 10:19:30.101 [restartedMain] [] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor-195  LOCAL_SNAPSHOT_PATH:/Users/admin/nacos/config
+2022-11-09 10:19:36.792 [restartedMain] [] INFO  com.alibaba.nacos.client.config.impl.Limiter-53  limitTime:5.0
+2022-11-09 10:19:37.442 [restartedMain] [] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration-109  Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2022-11-09 10:19:37.476 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-659  No active profile set, falling back to default profiles: default
+2022-11-09 10:19:37.476 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-659  No active profile set, falling back to default profiles: default
+2022-11-09 10:19:39.500 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-262  Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-09 10:19:39.508 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-132  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-09 10:19:39.538 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-201  Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-11-09 10:19:40.853 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 10:19:40.863 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$5e4cc945] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 10:19:40.918 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 10:19:40.925 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 10:19:40.955 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration' of type [io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration$$EnhancerBySpringCGLIB$$2999774b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 10:19:41.993 [restartedMain] [] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-108  Tomcat initialized with port(s): 8080 (http)
+2022-11-09 10:19:42.019 [restartedMain] [] INFO  org.apache.coyote.http11.Http11NioProtocol-173  Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-09 10:19:42.020 [restartedMain] [] INFO  org.apache.catalina.core.StandardService-173  Starting service [Tomcat]
+2022-11-09 10:19:42.020 [restartedMain] [] INFO  org.apache.catalina.core.StandardEngine-173  Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-11-09 10:19:42.162 [restartedMain] [] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-173  Initializing Spring embedded WebApplicationContext
+2022-11-09 10:19:42.163 [restartedMain] [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-290  Root WebApplicationContext: initialization completed in 4640 ms
+2022-11-09 10:19:42.683 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-56  initializer namespace from System Property :null
+2022-11-09 10:19:42.686 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-65  initializer namespace from System Environment :null
+2022-11-09 10:19:42.687 [restartedMain] [] INFO  com.alibaba.nacos.client.naming-75  initializer namespace from System Property :null
+2022-11-09 10:19:42.801 [restartedMain] [] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-56  Init DruidDataSource
+2022-11-09 10:19:46.274 [restartedMain] [] INFO  org.apache.catalina.core.StandardService-173  Stopping service [Tomcat]
+2022-11-09 10:19:46.479 [restartedMain] [] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-136  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-09 10:50:52.285 [background-preinit] [] INFO  org.hibernate.validator.internal.util.Version-21  HV000001: Hibernate Validator 6.2.0.Final
+2022-11-09 10:50:52.452 [restartedMain] [] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-09 12:05:31.700 [background-preinit] [] INFO  org.hibernate.validator.internal.util.Version-21  HV000001: Hibernate Validator 6.2.0.Final
+2022-11-09 12:05:31.917 [restartedMain] [] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor-255  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-09 12:05:33.540 [restartedMain] [] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration-109  Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2022-11-09 12:05:33.556 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-?  No active profile set, falling back to default profiles: default
+2022-11-09 12:05:33.556 [restartedMain] [] INFO  com.polaris.lesscode.dc.DataCenterApplication-637  No active profile set, falling back to default profiles: default
+2022-11-09 12:05:35.567 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-262  Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-09 12:05:35.573 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-132  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-09 12:05:35.599 [restartedMain] [] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-201  Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-11-09 12:05:36.831 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 12:05:36.843 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 12:05:36.847 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$467/620488461] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 12:05:36.858 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 12:05:36.887 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 12:05:36.889 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$f1dde4fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 12:05:36.926 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 12:05:36.930 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 12:05:36.958 [restartedMain] [] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-376  Bean 'io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration' of type [io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration$$EnhancerBySpringCGLIB$$bd2a9301] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-09 12:05:37.877 [restartedMain] [] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-108  Tomcat initialized with port(s): 8080 (http)
+2022-11-09 12:05:37.894 [restartedMain] [] INFO  org.apache.coyote.http11.Http11NioProtocol-173  Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-09 12:05:37.895 [restartedMain] [] INFO  org.apache.catalina.core.StandardService-173  Starting service [Tomcat]
+2022-11-09 12:05:37.896 [restartedMain] [] INFO  org.apache.catalina.core.StandardEngine-173  Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-11-09 12:05:38.035 [restartedMain] [] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-173  Initializing Spring embedded WebApplicationContext
+2022-11-09 12:05:38.035 [restartedMain] [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-290  Root WebApplicationContext: initialization completed in 4443 ms
